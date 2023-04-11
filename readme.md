@@ -7,6 +7,7 @@ This is a Python script that automates a user workflow by connecting to a Google
 Before running the script, please make sure you have the following:
 
 - Google Sheets API credentials: You will need a JSON keyfile for authentication. You can obtain this by following the instructions at [link-to-google-sheets-api-docs](https://developers.google.com/android/management/service-account).
+- After generating the JSON keyfile, rename it to "elections.json" and store it in the current directory.
 - After creating service account and enabling google sheets and google drive api, add the service account email to your google sheets file as a collaborator with edit access.
 - SendinBlue API credentials: You will need an API key and a URL from SendinBlue for sending emails. You can obtain these by signing up for a SendinBlue account at [link-to-sendinblue-website](https://account-app.sendinblue.com/account/login.)
 - Environment variables: You will need to set up the following environment variables in the .env file (based on the provided .env.template):
