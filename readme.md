@@ -25,7 +25,7 @@ Before running the script, please make sure you have the following:
 1. Clone the repository:
 
     ```python
-    git clone <https://github.com/daquiver1/google-sheets-automation.git>
+    git clone https://github.com/daquiver1/google-sheets-automation.git
     ```
 
 2. Change to the project directory:
